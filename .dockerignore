@@ -1,0 +1,5 @@
+.quasar
+dist
+node_modules
+.vscode
+.idea
