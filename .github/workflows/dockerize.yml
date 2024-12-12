@@ -1,5 +1,4 @@
 name: "dockerize vue app"
-
 on:
   push:
     branches:
