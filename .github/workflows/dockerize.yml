@@ -28,4 +28,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: daemondxx/lks_mini_app:${{ github.ref_name }}
+          tags: |
+            daemondxx/lks_mini_app:latest
+            daemondxx/lks_mini_app:${{ github.ref_name }}
